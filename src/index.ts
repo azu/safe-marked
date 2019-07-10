@@ -1,3 +1,4 @@
+// Node.js version
 import marked from "marked";
 import { JSDOM } from "jsdom";
 import createDOMPurify from "dompurify";
