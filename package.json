@@ -1,0 +1,80 @@
+{
+  "name": "safe-marked",
+  "version": "1.0.0",
+  "description": "Markdown to HTML using marked and DOMPurify. Safe by default.",
+  "keywords": [
+    "dom",
+    "html",
+    "markdown",
+    "safe",
+    "sanitize",
+    "xss"
+  ],
+  "homepage": "https://github.com/azu/safe-marked",
+  "bugs": {
+    "url": "https://github.com/azu/safe-marked/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/safe-marked.git"
+  },
+  "license": "MIT",
+  "author": "azu",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "main": "lib/index.js",
+  "browser": "lib/browser.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production tsc -p .",
+    "clean": "rimraf lib/",
+    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
+    "prepublish": "npm run --if-present build",
+    "test": "mocha \"test/**/*.ts\"",
+    "watch": "tsc -p . --watch"
+  },
+  "husky": {
+    "hooks": {
+      "precommit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": false,
+    "tabWidth": 4
+  },
+  "devDependencies": {
+    "@types/jsdom": "^12.2.4",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.6.2",
+    "@types/dompurify": "^0.0.33",
+    "cross-env": "^5.2.0",
+    "husky": "^3.0.0",
+    "lint-staged": "^9.1.0",
+    "mocha": "^6.1.4",
+    "prettier": "^1.18.2",
+    "rimraf": "^2.6.3",
+    "ts-node": "^8.3.0",
+    "ts-node-test-register": "^8.0.1",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@types/marked": "^0.6.5",
+    "dompurify": "^1.0.11",
+    "jsdom": "^15.1.1",
+    "marked": "^0.7.0"
+  }
+}
