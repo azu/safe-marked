@@ -7,7 +7,7 @@ Convert Markdown to HTML using [marked](https://marked.js.org) and [DOMPurify](h
 [marked](https://marked.js.org) does not sanitized by default.
 Also, [marked](https://marked.js.org) will remove `sanitize` option in the future.
 
-We want to get safe converter from Markdown to HTML.
+We want to get safe and easy library that convert Markdown to HTML.
 
 ## Features
 
