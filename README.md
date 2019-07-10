@@ -47,7 +47,7 @@ const markdown = createMarkdown();
 const html = markdown(`<script>alert(1)</script>
 <iframe src="https://example.com"></iframe>
 
-This is [XSS](javascript:alert)`);
+This is [XSS](javascript:alert(1))`);
 // sanitized by default
 assert.strictEqual(html, `
 
