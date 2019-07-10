@@ -21,7 +21,7 @@ We want to get safe and easy library that convert Markdown to HTML.
 ## Size
 
       package           size      minified  gzipped
-      safe-marked       90.15 KB  39.36 KB  13.82 KB
+      safe-marked       90.15 KB  39.36 KB  13.82 KB (browser bundle size)
       marked@0.7.0      45.05 KB  23.87 KB  7.87 KB
       dompurify@1.0.11  45.21 KB  15.3 KB   5.99 KB
       
