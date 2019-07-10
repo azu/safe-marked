@@ -7,6 +7,8 @@ Convert Markdown to HTML using [marked](https://marked.js.org) and [DOMPurify](h
 - Convert Markdown to HTML using [marked](https://marked.js.org)
 - Safe by default
     - The output is sanitized by [DOMPurify](https://github.com/cure53/DOMPurify)
+- Type Safe by default
+    - This library is written by TypeScript
 - Work on Browser and Node.js
 
 ## Motivation
