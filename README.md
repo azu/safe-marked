@@ -57,7 +57,7 @@ assert.strictEqual(html, `
 
 You can pass options for these library.
 
-- `marked`: See [marked](https://marked.js.org/#/USING_ADVANCED.md)'s option
+- `marked`: See [marked](https://marked.js.org/#/USING_ADVANCED.md)'s options
 - `dompurify`: See [DOMPurify](https://github.com/cure53/DOMPurify)'s options
 
 An example for options:
