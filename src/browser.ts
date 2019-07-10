@@ -1,14 +1,20 @@
 import marked from "marked";
 import DOMPurify from "dompurify";
 import { createMarkdownOptions } from "./Options";
+import { createCoreProcessor } from "./core";
 
 /**
  * Create Markdown processor
  * @param options
  */
 export const createMarkdown = (options: createMarkdownOptions = {}) => {
-    return (markdown: string) => {
-        const html = marked(markdown, options.marked);
-        return DOMPurify.sanitize(html, options.dompurify ? options.dompurify : {});
-    };
+    const dompurifyOptions = options.dompurify ? options.dompurify : {};
+    return createCoreProcessor({
+        markdownToHTML: (markdown: string) => {
+            return marked(markdown, options.marked);
+        },
+        sanitizer: (html: string) => {
+            return DOMPurify.sanitize(html, dompurifyOptions) as string;
+        }
+    });
 };
