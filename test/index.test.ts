@@ -43,7 +43,6 @@ This is [CommonMark](https://commonmark.org/) text.
                 headerIds: false
             },
             dompurify: {
-                // do not allow any tags
                 ADD_TAGS: ["iframe"]
             }
         });

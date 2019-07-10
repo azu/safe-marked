@@ -67,11 +67,12 @@ An example for options:
 ```js
 import { createMarkdown } from "safe-marked";
 const markdown = createMarkdown({
+    // same options for https://marked.js.org/#/USING_ADVANCED.md
     marked: {
         headerIds: false
     },
+    // same options for https://github.com/cure53/DOMPurify
     dompurify: {
-        // do not allow any tags
         ADD_TAGS: ["iframe"]
     }
 });
