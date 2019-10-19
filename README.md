@@ -98,6 +98,19 @@ This is [CommonMark](https://commonmark.org/) text.
 `);
 ```
 
+## FAQ
+
+### Does safe-marked always include jsdom?
+
+No. safe-marked has two type of entry point.
+
+- Node.js
+- Browser
+
+Browser entrypoint does not includes jsdom. (just use marked + dompurify)
+
+- [Automatically include jsdom? · Issue #5 · azu/safe-marked](https://github.com/azu/safe-marked/issues/5)
+
 ## Changelog
 
 See [Releases page](https://github.com/azu/safe-marked/releases).
