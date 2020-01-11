@@ -57,7 +57,7 @@
     "tabWidth": 4
   },
   "devDependencies": {
-    "@types/dompurify": "^0.0.33",
+    "@types/dompurify": "^2.0.1",
     "@types/jsdom": "^12.2.4",
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.12.24",
