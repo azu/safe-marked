@@ -59,7 +59,7 @@
   "devDependencies": {
     "@types/dompurify": "^2.0.1",
     "@types/jsdom": "^12.2.4",
-    "@types/mocha": "^5.2.7",
+    "@types/mocha": "^7.0.2",
     "@types/node": "^13.9.3",
     "cross-env": "^6.0.3",
     "husky": "^4.2.3",
