@@ -61,7 +61,7 @@
     "@types/jsdom": "^12.2.4",
     "@types/mocha": "^7.0.2",
     "@types/node": "^13.11.1",
-    "cross-env": "^6.0.3",
+    "cross-env": "^7.0.2",
     "husky": "^4.2.5",
     "lint-staged": "^9.5.0",
     "mocha": "^7.1.1",
