@@ -11,6 +11,8 @@ import { createCoreProcessor } from "./core";
  */
 export const createMarkdown = (options: createMarkdownOptions = {}) => {
     const window = (new JSDOM("")).window;
+    // DOMWindow vs. Window @types/DOMPurify is mismatch
+    // @ts-ignore 
     const DOMPurify = createDOMPurify(window);
     const dompurifyOptions = options.dompurify ? options.dompurify : {};
     return createCoreProcessor({
