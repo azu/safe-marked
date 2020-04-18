@@ -60,7 +60,7 @@
     "@types/dompurify": "^2.0.1",
     "@types/jsdom": "^16.2.1",
     "@types/mocha": "^7.0.2",
-    "@types/node": "^13.11.1",
+    "@types/node": "^13.13.0",
     "cross-env": "^7.0.2",
     "husky": "^4.2.5",
     "lint-staged": "^10.1.3",
