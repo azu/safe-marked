@@ -63,7 +63,7 @@
     "@types/node": "^13.13.12",
     "cross-env": "^7.0.2",
     "husky": "^4.2.5",
-    "lint-staged": "^10.2.9",
+    "lint-staged": "^10.2.10",
     "mocha": "^7.2.0",
     "prettier": "^2.0.4",
     "rimraf": "^3.0.2",
