@@ -1,4 +1,4 @@
-# safe-marked [![Build Status](https://travis-ci.org/azu/safe-marked.svg?branch=master)](https://travis-ci.org/azu/safe-marked)
+# safe-marked [![Actions Status: test](https://github.com/azu/safe-marked/workflows/test/badge.svg)](https://github.com/azu/safe-marked/actions?query=workflow%3A"test")
 
 Convert Markdown to HTML using [marked](https://marked.js.org) and [DOMPurify](https://github.com/cure53/DOMPurify).
 
