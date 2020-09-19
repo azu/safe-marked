@@ -519,7 +519,7 @@ domexception@^2.0.1:
   dependencies:
     webidl-conversions "^5.0.0"
 
-dompurify@^2.0.15:
+dompurify@^2.0.16:
   version "2.0.16"
   resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.0.16.tgz#9358430b9df8e7d742441f12355f1341e6cfb749"
   integrity sha512-MMNzUQdlvmbXhD0NVxME4hNI72eOlcz9TzO9L8KfmUcI+h97ISON5XagIUm40+JRwV4fGHYqxRpSy844fT9iow==
