@@ -60,7 +60,7 @@
     "@types/dompurify": "^2.0.4",
     "@types/jsdom": "^16.2.4",
     "@types/mocha": "^8.0.3",
-    "@types/node": "^14.11.10",
+    "@types/node": "^14.14.2",
     "cross-env": "^7.0.2",
     "husky": "^4.3.0",
     "lint-staged": "^10.4.2",
@@ -73,7 +73,7 @@
   },
   "dependencies": {
     "@types/marked": "^1.1.0",
-    "dompurify": "^2.1.1",
+    "dompurify": "^2.2.0",
     "jsdom": "^16.4.0",
     "marked": "^1.2.2"
   }
