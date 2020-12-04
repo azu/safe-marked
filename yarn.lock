@@ -1852,7 +1852,7 @@ ts-node-test-register@^9.0.0:
   dependencies:
     read-pkg "^5.2.0"
 
-ts-node@^9.0.0:
+ts-node@^9.1.0:
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-9.1.0.tgz#95eae4c6d0f94f2545884078e1eb1b14d2155639"
   integrity sha512-0yqcL4sgruCvM+w64LiAfNJo6+lHfCYc5Ajj4yiLNkJ9oZ2HWaa+Kso7htYOOxVQ7+csAjdUjffOe9PIqC4pMg==
