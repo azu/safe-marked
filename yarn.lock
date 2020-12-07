@@ -39,7 +39,7 @@
     "@types/parse5" "*"
     "@types/tough-cookie" "*"
 
-"@types/marked@^1.2.0":
+"@types/marked@^1.2.1":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@types/marked/-/marked-1.2.1.tgz#9864ecc10d0edb72e7be4e94acb5fcc607c15eed"
   integrity sha512-d5adCgRHB+NAme23hkiTkvpfZUDqoNtL2Sr2nZBJqSj3zyHLxsfFWsGQ2sK2z9aX6L1xkJzon2c0jTPcsEjpaQ==
@@ -1069,7 +1069,7 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
-lint-staged@^10.5.2:
+lint-staged@^10.5.3:
   version "10.5.3"
   resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.5.3.tgz#c682838b3eadd4c864d1022da05daa0912fb1da5"
   integrity sha512-TanwFfuqUBLufxCc3RUtFEkFraSPNR3WzWcGF39R3f2J7S9+iF9W0KTVLfSy09lYGmZS5NDCxjNvhGMSJyFCWg==
@@ -1845,7 +1845,7 @@ tr46@^2.0.2:
   dependencies:
     punycode "^2.1.1"
 
-ts-node-test-register@^9.0.0:
+ts-node-test-register@^9.0.1:
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/ts-node-test-register/-/ts-node-test-register-9.0.1.tgz#84bdf287bdc29f64de33d3b5f04d73395233dcd8"
   integrity sha512-J8xmFFH6HcFFxe09qcVsooDgiTa+cUDsNj3l+I0JPPl0hcIvw7RcJPU4qmkj+55JVlFsEql6Nl7xSkCt36RFtw==
