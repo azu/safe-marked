@@ -58,7 +58,7 @@
   },
   "devDependencies": {
     "@types/dompurify": "^2.2.1",
-    "@types/jsdom": "^16.2.8",
+    "@types/jsdom": "^16.2.9",
     "@types/mocha": "^8.2.2",
     "@types/node": "^14.14.37",
     "cross-env": "^7.0.3",
