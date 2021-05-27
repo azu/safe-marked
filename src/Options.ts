@@ -1,7 +1,7 @@
 import { MarkedOptions } from "marked";
 
 export type createMarkdownOptions = {
-    marked?: MarkedOptions,
+    marked?: MarkedOptions;
     dompurify?: {
         ADD_ATTR?: string[];
         ADD_TAGS?: string[];
@@ -21,7 +21,7 @@ export type createMarkdownOptions = {
         ALLOWED_URI_REGEXP?: RegExp;
         SAFE_FOR_TEMPLATES?: boolean;
         ALLOW_UNKNOWN_PROTOCOLS?: boolean;
-        USE_PROFILES?: false | { mathMl?: boolean, svg?: boolean, svgFilters?: boolean, html?: boolean };
+        USE_PROFILES?: false | { mathMl?: boolean; svg?: boolean; svgFilters?: boolean; html?: boolean };
         IN_PLACE?: boolean;
-    }
-}
+    };
+};

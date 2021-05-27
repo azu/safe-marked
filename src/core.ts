@@ -1,7 +1,7 @@
 export type createCoreProcessorOptions = {
     markdownToHTML: (markdown: string) => string;
     sanitizer: (html: string) => string;
-}
+};
 /**
  * Create Core processor
  * @param options

@@ -1,16 +1,19 @@
 import { createMarkdown } from "../src";
 import assert = require("assert");
 
-describe("safe-marked", function() {
+describe("safe-marked", function () {
     it("should convert Markdown to HTML", () => {
         const markdown = createMarkdown();
         const html = markdown(`# Header
 
 This is [CommonMark](https://commonmark.org/) text.
 `);
-        assert.strictEqual(html, `<h1 id="header">Header</h1>
+        assert.strictEqual(
+            html,
+            `<h1 id="header">Header</h1>
 <p>This is <a href="https://commonmark.org/">CommonMark</a> text.</p>
-`);
+`
+        );
     });
     it("should sanitize by default", () => {
         const markdown = createMarkdown();
@@ -18,10 +21,13 @@ This is [CommonMark](https://commonmark.org/) text.
 <iframe src="https://example.com"></iframe>
 
 This is [XSS](javascript:alert)`);
-        assert.strictEqual(html, `
+        assert.strictEqual(
+            html,
+            `
 
 <p>This is <a>XSS</a></p>
-`);
+`
+        );
     });
     it("should accept marked option", () => {
         const markdown = createMarkdown({
@@ -33,9 +39,12 @@ This is [XSS](javascript:alert)`);
 
 This is [CommonMark](https://commonmark.org/) text.
 `);
-        assert.strictEqual(html, `<h1>Header</h1>
+        assert.strictEqual(
+            html,
+            `<h1>Header</h1>
 <p>This is <a href="https://commonmark.org/">CommonMark</a> text.</p>
-`);
+`
+        );
     });
     it("should accept DOMPurify option", () => {
         const markdown = createMarkdown({
@@ -51,9 +60,12 @@ This is [CommonMark](https://commonmark.org/) text.
 <iframe src="https://example.com"></iframe>
 This is [CommonMark](https://commonmark.org/) text.
 `);
-        assert.strictEqual(html, `<h1>Header</h1>
+        assert.strictEqual(
+            html,
+            `<h1>Header</h1>
 <iframe src="https://example.com"></iframe>
 This is [CommonMark](https://commonmark.org/) text.
-`);
+`
+        );
     });
 });
