@@ -60,7 +60,7 @@
   "devDependencies": {
     "@types/dompurify": "^2.2.3",
     "@types/jsdom": "^16.2.13",
-    "@types/mocha": "^8.2.2",
+    "@types/mocha": "^8.2.3",
     "@types/node": "^15.6.1",
     "cross-env": "^7.0.3",
     "lint-staged": "^11.0.0",
