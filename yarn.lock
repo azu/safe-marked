@@ -76,10 +76,10 @@
     "@types/parse5" "*"
     "@types/tough-cookie" "*"
 
-"@types/marked@^2.0.5":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@types/marked/-/marked-2.0.5.tgz#453e27f1e97199d45bb25297b0dd2b9bbc1e05ea"
-  integrity sha512-shRZ7XnYFD/8n8zSjKvFdto1QNSf4tONZIlNEZGrJe8GsOE8DL/hG1Hbl8gZlfLnjS7+f5tZGIaTgfpyW38h4w==
+"@types/marked@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@types/marked/-/marked-3.0.0.tgz#2deb8fcd1ec655336e498cb100e6cb346b731df9"
+  integrity sha512-vof90OIWT+Tzq3MBRXgV9fsH8PC3WZ4OQg9Qa04vOtP0TcyiNfl7BTonYCmTapHZ5lRZh6ihUYkAy7St1hmk/A==
 
 "@types/mocha@^8.2.3":
   version "8.2.3"
