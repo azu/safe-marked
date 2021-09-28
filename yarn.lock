@@ -60,10 +60,10 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.2.tgz#423c77877d0569db20e1fc80885ac4118314010e"
   integrity sha512-eZxlbI8GZscaGS7kkc/trHTT5xgrjH3/1n2JDwusC9iahPKWMRvRjJSAN5mCXviuTGQ/lHnhvv8Q1YTpnfz9gA==
 
-"@types/dompurify@^2.2.3":
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/@types/dompurify/-/dompurify-2.2.3.tgz#6e89677a07902ac1b6821c345f34bd85da239b08"
-  integrity sha512-CLtc2mZK8+axmrz1JqtpklO/Kvn38arGc8o1l3UVopZaXXuer9ONdZwJ/9f226GrhRLtUmLr9WrvZsRSNpS8og==
+"@types/dompurify@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@types/dompurify/-/dompurify-2.3.0.tgz#66723d311da7a83405c8279874b753af2041a577"
+  integrity sha512-fBpdyrPm4bJYFTmDEyYp23OaEOxLcARra0cKS3HqaPhhvfAm6T66njkMufl462hvCh/YQ6aXWBVRd32Y05iIfw==
   dependencies:
     "@types/trusted-types" "*"
 
