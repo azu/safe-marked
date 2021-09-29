@@ -58,7 +58,7 @@
     "trailingComma": "none"
   },
   "devDependencies": {
-    "@types/dompurify": "^2.3.0",
+    "@types/dompurify": "^2.3.1",
     "@types/jsdom": "^16.2.13",
     "@types/mocha": "^8.2.3",
     "@types/node": "^15.6.1",
