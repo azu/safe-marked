@@ -72,7 +72,7 @@
     "typescript": "^4.3.2"
   },
   "dependencies": {
-    "@types/marked": "^3.0.1",
+    "@types/marked": "^3.0.2",
     "dompurify": "^2.3.3",
     "jsdom": "^18.0.0",
     "marked": "^3.0.7"
