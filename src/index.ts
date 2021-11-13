@@ -1,5 +1,5 @@
 // Node.js version
-import marked from "marked";
+import { marked } from "marked";
 import { JSDOM } from "jsdom";
 import createDOMPurify from "dompurify";
 import { createMarkdownOptions } from "./Options";

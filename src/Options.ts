@@ -1,7 +1,7 @@
-import { MarkedOptions } from "marked";
+import type { marked } from "marked";
 
 export type createMarkdownOptions = {
-    marked?: MarkedOptions;
+    marked?: marked.MarkedOptions;
     dompurify?: {
         ADD_ATTR?: string[];
         ADD_TAGS?: string[];
