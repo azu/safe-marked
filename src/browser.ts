@@ -1,7 +1,7 @@
 // Browser version
 // It is referred by "browser" field
 // https://github.com/defunctzombie/package-browser-field-spec
-import marked from "marked";
+import { marked } from "marked";
 import DOMPurify from "dompurify";
 import { createMarkdownOptions } from "./Options";
 import { createCoreProcessor } from "./core";
