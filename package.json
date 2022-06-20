@@ -75,6 +75,6 @@
     "@types/marked": "^4.0.3",
     "dompurify": "^2.3.8",
     "jsdom": "^19.0.0",
-    "marked": "^4.0.16"
+    "marked": "^4.0.17"
   }
 }
