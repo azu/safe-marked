@@ -73,8 +73,8 @@
   },
   "dependencies": {
     "@types/marked": "^4.0.3",
-    "dompurify": "^2.3.8",
+    "dompurify": "^2.3.10",
     "jsdom": "^20.0.0",
-    "marked": "^4.0.17"
+    "marked": "^4.0.18"
   }
 }
