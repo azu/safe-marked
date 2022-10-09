@@ -74,7 +74,7 @@
   "dependencies": {
     "@types/marked": "^4.0.7",
     "dompurify": "^2.4.0",
-    "jsdom": "^20.0.0",
-    "marked": "^4.1.0"
+    "jsdom": "^20.0.1",
+    "marked": "^4.1.1"
   }
 }
