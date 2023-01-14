@@ -26,8 +26,8 @@
       "types": "./module/index.d.ts",
       "import": "./module/index.js",
       "require": "./lib/index.js",
-      "default": "./lib/index.js",
-      "browser": "./module/browser.js"
+      "browser": "./module/browser.js",
+      "default": "./lib/index.js"
     },
     "./package.json": "./package.json"
   },
