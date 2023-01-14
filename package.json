@@ -23,18 +23,18 @@
   "type": "module",
   "exports": {
     ".": {
-      "types": "./module/safe-marked.d.ts",
-      "import": "./module/safe-marked.js",
-      "require": "./lib/safe-marked.js",
-      "default": "./lib/safe-marked.js",
+      "types": "./module/index.d.ts",
+      "import": "./module/index.js",
+      "require": "./lib/index.js",
+      "default": "./lib/index.js",
       "browser": "./module/browser.js"
     },
     "./package.json": "./package.json"
   },
-  "main": "./lib/safe-marked.js",
-  "module": "./module/safe-marked.js",
+  "main": "./lib/index.js",
+  "module": "./module/index.js",
   "browser": "./lib/browser.js",
-  "types": "./module/safe-marked.d.ts",
+  "types": "./module/index.d.ts",
   "directories": {
     "lib": "lib",
     "test": "test"
