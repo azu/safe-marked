@@ -2,8 +2,8 @@
 import { marked } from "marked";
 import { JSDOM } from "jsdom";
 import createDOMPurify from "dompurify";
-import { createMarkdownOptions } from "./Options";
-import { createCoreProcessor } from "./core";
+import { createMarkdownOptions } from "./Options.js";
+import { createCoreProcessor } from "./core.js";
 
 /**
  * Create Markdown processor
