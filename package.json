@@ -20,31 +20,38 @@
   },
   "license": "MIT",
   "author": "azu",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./module/safe-marked.d.ts",
+      "import": "./module/safe-marked.js",
+      "require": "./lib/safe-marked.js",
+      "default": "./lib/safe-marked.js",
+      "browser": "./module/browser.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./lib/safe-marked.js",
+  "module": "./module/safe-marked.js",
+  "browser": "./lib/browser.js",
+  "types": "./module/safe-marked.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
   "files": [
     "bin/",
     "lib/",
     "src/"
   ],
-  "main": "lib/index.js",
-  "browser": "lib/browser.js",
-  "types": "lib/index.d.ts",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
   "scripts": {
-    "build": "cross-env NODE_ENV=production tsc -p .",
-    "clean": "rimraf lib/",
-    "prepublish": "npm run --if-present build",
-    "test": "mocha \"test/**/*.ts\"",
-    "watch": "tsc -p . --watch",
+    "build": "tsc -p . && tsc -p ./tsconfig.cjs.json && tsconfig-to-dual-package",
+    "clean": "git clean -fx module/ lib/",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
-    "prepare": "git config --local core.hooksPath .githooks"
-  },
-  "husky": {
-    "hooks": {
-      "precommit": "lint-staged"
-    }
+    "prepare": "git config --local core.hooksPath .githooks",
+    "prepublishOnly": "npm run build",
+    "test": "mocha",
+    "watch": "tsc -p . --watch"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,css}": [
@@ -52,29 +59,29 @@
     ]
   },
   "prettier": {
-    "singleQuote": false,
     "printWidth": 120,
+    "singleQuote": false,
     "tabWidth": 4,
     "trailingComma": "none"
-  },
-  "devDependencies": {
-    "@types/dompurify": "^2.4.0",
-    "@types/jsdom": "^20.0.1",
-    "@types/mocha": "^10.0.1",
-    "@types/node": "^18.11.18",
-    "cross-env": "^7.0.3",
-    "lint-staged": "^13.1.0",
-    "mocha": "^10.2.0",
-    "prettier": "^2.7.1",
-    "rimraf": "^3.0.2",
-    "ts-node": "^10.9.1",
-    "ts-node-test-register": "^10.0.0",
-    "typescript": "^4.7.4"
   },
   "dependencies": {
     "@types/marked": "^4.0.8",
     "dompurify": "^2.4.3",
     "jsdom": "^21.0.0",
     "marked": "^4.2.5"
-  }
+  },
+  "devDependencies": {
+    "@types/dompurify": "^2.4.0",
+    "@types/jsdom": "^20.0.1",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.11.18",
+    "lint-staged": "^13.1.0",
+    "mocha": "^10.2.0",
+    "prettier": "^2.8.3",
+    "ts-node": "^10.9.1",
+    "ts-node-test-register": "^10.0.0",
+    "tsconfig-to-dual-package": "^1.0.7",
+    "typescript": "^4.9.4"
+  },
+  "packageManager": "yarn@1.22.19"
 }
