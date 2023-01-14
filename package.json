@@ -42,7 +42,8 @@
   "files": [
     "bin/",
     "lib/",
-    "src/"
+    "src/",
+    "module/"
   ],
   "scripts": {
     "build": "tsc -p . && tsc -p ./tsconfig.cjs.json && tsconfig-to-dual-package",
