@@ -111,6 +111,8 @@ Browser entrypoint does not includes jsdom. (just use marked + dompurify)
 
 - [Automatically include jsdom? · Issue #5 · azu/safe-marked](https://github.com/azu/safe-marked/issues/5)
 
+Browser demo: <https://stackblitz.com/edit/js-pquqgx?file=index.js,package.json>
+
 ## Changelog
 
 See [Releases page](https://github.com/azu/safe-marked/releases).
