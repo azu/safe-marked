@@ -41,11 +41,6 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
     "prepare": "git config --local core.hooksPath .githooks"
   },
-  "husky": {
-    "hooks": {
-      "precommit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,css}": [
       "prettier --write"
@@ -65,7 +60,7 @@
     "cross-env": "^7.0.3",
     "lint-staged": "^13.1.0",
     "mocha": "^10.2.0",
-    "prettier": "^2.7.1",
+    "prettier": "^2.8.3",
     "rimraf": "^3.0.2",
     "ts-node": "^10.9.1",
     "ts-node-test-register": "^10.0.0",
