@@ -77,7 +77,7 @@
     "@types/marked": "^4.0.8",
     "dompurify": "^2.4.3",
     "jsdom": "^21.0.0",
-    "marked": "^4.2.5"
+    "marked": "^4.2.12"
   },
   "devDependencies": {
     "@types/dompurify": "^2.4.0",
