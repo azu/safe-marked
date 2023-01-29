@@ -1506,7 +1506,7 @@ ts-node@^10.9.1:
     v8-compile-cache-lib "^3.0.1"
     yn "3.1.1"
 
-tsconfig-to-dual-package@^1.1.0:
+tsconfig-to-dual-package@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/tsconfig-to-dual-package/-/tsconfig-to-dual-package-1.1.1.tgz#dd4ca5500d5c2bd372ca22606dfa36e5d391d83b"
   integrity sha512-HU3GeD+U2Z3Qo1D5mNYj38iHTEhmzLJ2H1SvBu3EDbhJ1rlJ/oxUZYBdJkMHeIPu21kK2XGJg51J2WttaL+G0A==
