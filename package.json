@@ -81,8 +81,8 @@
   },
   "devDependencies": {
     "@types/dompurify": "^3.0.5",
-    "@types/jsdom": "^21.1.4",
-    "@types/mocha": "^10.0.3",
+    "@types/jsdom": "^21.1.5",
+    "@types/mocha": "^10.0.4",
     "@types/node": "^18.18.8",
     "lint-staged": "^13.3.0",
     "mocha": "^10.2.0",
