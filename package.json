@@ -92,5 +92,5 @@
     "tsconfig-to-dual-package": "^1.2.0",
     "typescript": "^4.9.4"
   },
-  "packageManager": "yarn@1.22.20"
+  "packageManager": "yarn@1.22.21"
 }
