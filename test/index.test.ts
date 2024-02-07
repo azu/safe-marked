@@ -1,9 +1,16 @@
 import * as assert from "assert";
 import { createMarkdown } from "../src/index.js";
+import { gfmHeadingId } from "marked-gfm-heading-id";
 
 describe("safe-marked", function () {
     it("should convert Markdown to HTML", () => {
-        const markdown = createMarkdown();
+        const markdown = createMarkdown({
+            marked: {
+                onInit: (marked) => {
+                    marked.use(gfmHeadingId());
+                }
+            }
+        });
         const html = markdown(`# Header
 
 This is [CommonMark](https://commonmark.org/) text.
@@ -30,11 +37,7 @@ This is [XSS](javascript:alert)`);
         );
     });
     it("should accept marked option", () => {
-        const markdown = createMarkdown({
-            marked: {
-                headerIds: false
-            }
-        });
+        const markdown = createMarkdown({});
         const html = markdown(`# Header
 
 This is [CommonMark](https://commonmark.org/) text.
@@ -48,9 +51,6 @@ This is [CommonMark](https://commonmark.org/) text.
     });
     it("should accept DOMPurify option", () => {
         const markdown = createMarkdown({
-            marked: {
-                headerIds: false
-            },
             dompurify: {
                 ADD_TAGS: ["iframe"]
             }
