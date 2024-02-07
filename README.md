@@ -71,16 +71,24 @@ assert.strictEqual(html, `
 You can pass options for these library.
 
 - `marked`: See [marked](https://marked.js.org/#/USING_ADVANCED.md)'s options
+  - `onInit(marked: Marked): unknown`: You can use `onInit` to customize `marked` instance.
+  - It is useful to add a plugin to `marked`.
 - `dompurify`: See [DOMPurify](https://github.com/cure53/DOMPurify)'s options
 
 An example for options:
 
 ```js
 import { createMarkdown } from "safe-marked";
+import { gfmHeadingId } from "marked-gfm-heading-id";
 const markdown = createMarkdown({
-    // same options for https://marked.js.org/#/USING_ADVANCED.md
     marked: {
-        headerIds: false
+        // Add plugin to marked
+        onInit(marked) {
+            // add plugin
+            marked.use(gfmHeadingId());
+        },
+        // same options for https://marked.js.org/#/USING_ADVANCED.md
+        gfm: false
     },
     // same options for https://github.com/cure53/DOMPurify
     dompurify: {

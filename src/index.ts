@@ -1,5 +1,5 @@
 // Node.js version
-import { marked } from "marked";
+import { Marked } from "marked";
 import { JSDOM } from "jsdom";
 import createDOMPurify from "dompurify";
 import { createMarkdownOptions } from "./Options.js";
@@ -15,9 +15,16 @@ export const createMarkdown = (options: createMarkdownOptions = {}) => {
     // @ts-ignore
     const DOMPurify = createDOMPurify(window);
     const dompurifyOptions = options.dompurify ? options.dompurify : {};
+    const marked = new Marked();
+    if (options.marked?.onInit) {
+        options.marked.onInit(marked);
+    }
     return createCoreProcessor({
-        markdownToHTML: (markdown: string) => {
-            return marked(markdown, options.marked);
+        markdownToHTML: (markdown: string): string => {
+            return marked.parse(markdown, {
+                ...options.marked,
+                async: false
+            }) as string;
         },
         sanitizer: (html: string) => {
             return DOMPurify.sanitize(html, dompurifyOptions) as string;
