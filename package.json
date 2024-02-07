@@ -1,6 +1,6 @@
 {
   "name": "safe-marked",
-  "version": "15.0.0",
+  "version": "16.0.0",
   "description": "Markdown to HTML using marked and DOMPurify. Safe by default.",
   "keywords": [
     "dom",
