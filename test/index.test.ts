@@ -1,6 +1,7 @@
 import * as assert from "assert";
 import { createMarkdown } from "../src/index.js";
 import { gfmHeadingId } from "marked-gfm-heading-id";
+import { mangle } from "marked-mangle";
 
 describe("safe-marked", function () {
     it("should convert Markdown to HTML", () => {
@@ -8,6 +9,7 @@ describe("safe-marked", function () {
             marked: {
                 onInit: (marked) => {
                     marked.use(gfmHeadingId());
+                    marked.use(mangle());
                 }
             }
         });
