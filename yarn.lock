@@ -304,10 +304,10 @@ diff@5.0.0:
   resolved "https://registry.yarnpkg.com/diff/-/diff-5.0.0.tgz#7ed6ad76d859d030787ec35855f5b1daf31d852b"
   integrity sha512-/VTCrvm5Z0JGty/BWHljh+BAiw3IK+2j87NGMu8Nwc/f48WoDAC395uomO9ZD117ZOBaHmkX1oyLvkVM/aIT3w==
 
-dompurify@^3.0.8:
-  version "3.0.8"
-  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-3.0.8.tgz#e0021ab1b09184bc8af7e35c7dd9063f43a8a437"
-  integrity sha512-b7uwreMYL2eZhrSCRC4ahLTeZcPZxSmYfmcQGXGkXiZSNW1X85v+SDM5KsWcpivIiUBH47Ji7NtyUdpLeF5JZQ==
+dompurify@^3.0.9:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-3.0.9.tgz#b3f362f24b99f53498c75d43ecbd784b0b3ad65e"
+  integrity sha512-uyb4NDIvQ3hRn6NiC+SIFaP4mJ/MdXlvtunaqK9Bn6dD3RuB/1S/gasEjDHD8eiaqdSael2vBv+hOs7Y+jhYOQ==
 
 eastasianwidth@^0.2.0:
   version "0.2.0"
