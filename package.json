@@ -74,7 +74,7 @@
     "trailingComma": "none"
   },
   "dependencies": {
-    "dompurify": "^3.0.10",
+    "dompurify": "^3.0.11",
     "jsdom": "^24.0.0",
     "marked": "^12.0.1"
   },
