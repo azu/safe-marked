@@ -717,10 +717,10 @@ marked-gfm-heading-id@^3.2.0:
   dependencies:
     github-slugger "^2.0.0"
 
-marked-mangle@^1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/marked-mangle/-/marked-mangle-1.1.7.tgz#07fed8f47ebdc51761aac0364723468644cea49d"
-  integrity sha512-bLsXKovJEEs/Dl++TBPmjX8ALFmrH5G0doTs+BdDOloBKWYRf3acyJghce78SnwInDkNPJ6crubr4MnFG7urOA==
+marked-mangle@^1.1.8:
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/marked-mangle/-/marked-mangle-1.1.8.tgz#45e6ef91ae4d8865e542969218ce3d98996281fa"
+  integrity sha512-vN6a7AxdxP9PHQ6xI0EN/CesMOjcjqP0+JN/0cO2zypzyiyUhev82nWxA+/9JxYQawDErq8rT3G19AM+IgpmlQ==
 
 marked@^12.0.2:
   version "12.0.2"
