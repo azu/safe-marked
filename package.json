@@ -86,7 +86,7 @@
     "lint-staged": "^15.2.7",
     "marked-gfm-heading-id": "^3.2.0",
     "marked-mangle": "^1.1.8",
-    "mocha": "^10.4.0",
+    "mocha": "^10.5.0",
     "prettier": "^3.2.5",
     "tsconfig-to-dual-package": "^1.2.0",
     "tsimp": "^2.0.11",
