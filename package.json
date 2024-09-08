@@ -84,7 +84,7 @@
     "@types/mocha": "^10.0.7",
     "@types/node": "^20.16.3",
     "lint-staged": "^15.2.10",
-    "marked-gfm-heading-id": "^3.2.0",
+    "marked-gfm-heading-id": "^4.1.0",
     "marked-mangle": "^1.1.9",
     "mocha": "^10.7.3",
     "prettier": "^3.2.5",
