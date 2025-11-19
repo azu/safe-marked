@@ -75,12 +75,12 @@
   },
   "dependencies": {
     "dompurify": "^3.3.0",
-    "jsdom": "^24.1.3",
+    "jsdom": "^27.2.0",
     "marked": "^12.0.2"
   },
   "devDependencies": {
     "@types/dompurify": "^3.2.0",
-    "@types/jsdom": "^21.1.7",
+    "@types/jsdom": "^27.0.0",
     "@types/mocha": "^10.0.9",
     "@types/node": "^20.19.0",
     "lint-staged": "^15.5.0",
