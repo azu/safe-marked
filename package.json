@@ -81,15 +81,15 @@
   "devDependencies": {
     "@types/dompurify": "^3.2.0",
     "@types/jsdom": "^21.1.7",
-    "@types/mocha": "^10.0.9",
-    "@types/node": "^20.19.0",
-    "lint-staged": "^15.5.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^20.19.25",
+    "lint-staged": "^15.5.2",
     "marked-gfm-heading-id": "^3.2.0",
-    "marked-mangle": "^1.1.9",
-    "mocha": "^11.7.0",
+    "marked-mangle": "^1.1.12",
+    "mocha": "^11.7.5",
     "prettier": "^3.2.5",
     "tsconfig-to-dual-package": "^1.2.0",
-    "tsimp": "^2.0.11",
+    "tsimp": "^2.0.12",
     "typescript": "^5.3.3"
   },
   "packageManager": "yarn@1.22.22"
